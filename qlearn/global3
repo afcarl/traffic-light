@@ -1,0 +1,37 @@
+global NO_REPLICATIONS ITERMAX NA NS SMALL TPM TRM LAMBDA
+
+
+NO_REPLICATIONS=30; % No of replications of simulation 
+ITERMAX=10000; % No of iterations of learning 
+NA=5; % Number of actions in each state
+NS=5; % Number of states
+
+LAMBDA=0.8; % discount factor
+
+SMALL=-1000000;
+
+%Let r(i,a, j) denote the reward earned in going from state i to state j under action a. 
+%Let p(i,a, j) denote the probability associated with the same transition.
+
+TPM(:,:,1)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TPM(:,:,2)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TPM(:,:,3)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TPM(:,:,4)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TPM(:,:,5)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+
+
+
+TRM(:,:,1)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TRM(:,:,2)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TRM(:,:,3)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TRM(:,:,4)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
+
+TRM(:,:,5)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
