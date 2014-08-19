@@ -10,8 +10,8 @@ LAMBDA=0.8; % discount factor
 
 SMALL=-1000000;
 
-%Let r(i,a, j) denote the reward earned in going from state i to state j under action a. 
-%Let p(i,a, j) denote the probability associated with the same transition.
+%Let p(i,a, j) (TPM) denote the probability associated with the same transition.
+%Let r(i,a, j) (TRM) denote the reward earned in going from state i to state j under action a. 
 
 TPM(:,:,1)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
 
@@ -22,8 +22,6 @@ TPM(:,:,3)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
 TPM(:,:,4)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
 
 TPM(:,:,5)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
-
-
 
 
 TRM(:,:,1)=[1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;1,1,1,1,1];
