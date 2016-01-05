@@ -1,6 +1,6 @@
 
 %count2cars.m
-%Original m file for counting cars via Gaussian Mixture Models and using two webcams
+%Original m file for counting cars via Gaussian Mixture Models and using two webcams.
 RED = 0; %CONSTANTS
 GREEN = 1;
  
