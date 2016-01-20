@@ -6,7 +6,7 @@
 % Step 0 - Preliminaries
  
 % We start off by making two directories in which to store images, one for
-%positive image examples and one for negative examples.
+% positive image examples and one for negative examples.
 % 
  mkdir(pwd, 'Positive Images'); addpath([pwd '\Positive Images'])
  mkdir(pwd, 'Negative Images'); addpath([pwd '\Negative Images'])
